@@ -14,8 +14,8 @@ body {
 	display: flex; /* sticky footer */
 	flex-direction: column; /* sticky footer */
 	margin: 0;
-	font-family: sans-serif;
-	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	color: $mainTextColor;
 }
 
 body > * {

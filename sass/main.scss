@@ -1,5 +1,12 @@
+@import "./base/vars";
 @import "./base/base";
 
-@import "./blocks/_blocks.scss";
+@import "./blocks/header";
+
+@import "./blocks/form";
+
+@import "./blocks/functional";
+
+@import "./blocks/titles-subtitiles";
 
 @import "./media/media";

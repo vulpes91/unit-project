@@ -8,23 +8,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<!-- Title and SEO -->
-	<title>Стартовый шаблон</title>
+	<title>Проект Юнит - управляй задачами.</title>
 	<meta name="description" content="Описание страницы" />
 	<meta name="keywords" content="ключевые слова, фразы" />
 
 	<!-- Styles -->
 	<link rel="stylesheet" href="./css/main.css" />
 	<link rel="stylesheet" href="./css/media.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+
 
 	<!-- Open Graph -->
 	<!-- <meta property="og:url" content="https://webcademy.ru/" /> -->
-	<meta property="og:type" content="website" />
+	<!-- <meta property="og:type" content="website" />
 	<meta property="og:title" content="Туристическое агентство Форест Тревел" />
 	<meta property="og:description" content="Турпоходы по дикой природе" />
-	<meta property="og:image" content="./img/opengraph.jpg" />
+	<meta property="og:image" content="./img/opengraph.jpg" /> -->
 
 	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+	<!-- <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
 	<link rel="manifest" href="./img/favicon/site.webmanifest">
@@ -32,11 +35,91 @@
 	<link rel="shortcut icon" href="./img/favicon/favicon.ico">
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="theme-color" content="#ffffff"> -->
 </head>
 
 <body>
-	<h1>Hello World!</h1>
+	<!-- начало первой секции -->
+	<header class="header">
+		<div class="header__content">
+
+			<div class="container header__buttons">
+				<button class="button-round">
+					<img src="./img/icons/header/menu.svg" alt="navigation button">
+				</button>
+				<button class="button-round">
+					<img src="./img/icons/header/search.svg" alt="search button">
+				</button>
+			</div>
+
+			<div class="container header__center-form">
+				<div class="header__main-title">
+					Юнит
+				</div>
+				<div class="header__main-description">
+					Управляй задачами и проектами из любой точки вместе с ЮНИТ.
+					Дома. На работе. В дороге. Онлайн. Оффлайн.
+				</div>
+				<form class="header__form">
+					<input type="text" class="input" placeholder="Ваше имя">
+					<input type="email" class="input" placeholder="Ваш e-mail">
+					<button type="submit" class="submit">начать триал</button>
+				</form>
+
+			</div>
+
+			<div class="header__scroll">
+				<a href="#functional">
+					<img src="img/icons/header/mouse.svg" alt="icon scroll">
+				</a>
+			</div>
+		</div>
+	</header>
+	<!-- конец первой секции -->
+
+	<!-- начало второй секции -->
+	<section class="section-functional">
+		<div class="container">
+			<div class="section-functional__header">
+				<div class="section-functional__title">
+					<h2 class="title">Функционал</h2>
+				</div>
+				<div class="section-functional__subtitle">
+					<p class="subtitle">Получайте больше</p>
+				</div>
+			</div>
+			<div class="section-functional__row">
+				<div class="card">
+					<img class="card__img" src="./img/icons/functional/u_file-check-alt.svg" alt="icon doc">
+					<h4 class="card__title">Создан для управления</h4>
+					<p class="card__paragraph">Согласно ставшей уже классической работе Филипа Котлера, рекламная
+						площадка отталкивает рейтинг</p>
+				</div>
+
+				<div class="card">
+					<img class="card__img" src="./img/icons/functional/u_microphone.svg" alt="icon microphone">
+					<h4 class="card__title">Голосовое управление</h4>
+					<p class="card__paragraph">Управляйте приложением при помощи голоса. Распознование речи на 3 языках
+					</p>
+				</div>
+
+				<div class="card">
+					<img class="card__img" src="./img/icons/functional/u_money-stack.svg" alt="icon money">
+					<h4 class="card__title">Контроль бюджета</h4>
+					<p class="card__paragraph">Возможность выбора оптимального тарифного плана для вашей организации
+					</p>
+				</div>
+
+				<div class="card">
+					<img class="card__img" src="./img/icons/functional/u_chart-pie-alt.svg" alt="icon pir-chart">
+					<h4 class="card__title">Статистика и графики</h4>
+					<p class="card__paragraph">Вся необходимая информация в простой и нагляжной форме в удобном формате
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- конец второй секции -->
 
 	<footer class="footer">
 		Sticky Footer. Всегда внизу страницы
