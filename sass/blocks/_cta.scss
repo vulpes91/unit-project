@@ -1,0 +1,40 @@
+.section-cta {
+    position: relative;
+    padding-top: 83px;
+    padding-bottom: 84px;
+
+    background-image: url("../img/bg/cta-bg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .35);
+}
+}
+
+
+.section-cta__content {
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section-cta__header {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.section-cta__header--bold {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
