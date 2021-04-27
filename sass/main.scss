@@ -1,11 +1,16 @@
 @import "./base/vars";
+@import "./base/mixins";
 @import "./base/base";
 
 @import "./blocks/header";
 @import "./blocks/form";
+@import "./blocks/buttons";
 @import "./blocks/functional";
 @import "./blocks/titles-subtitiles";
 @import "./blocks/cta";
 @import "./blocks/section-tasks";
+@import "./blocks/section-focus";
+@import "./blocks/pricing";
+@import "./blocks/package";
 
 @import "./media/media";

@@ -1,0 +1,18 @@
+//фоновое изображение 
+@mixin bgImage ($name) {
+    background-image: url($name);
+    background-size: cover;
+    background-position: center;
+}
+
+//тёмная подложка наследование
+%overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .35);
+}
+

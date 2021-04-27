@@ -1,0 +1,46 @@
+.section-focus {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.section-focus__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section-focus__content {
+    width: 470px;
+    padding-top: 28px;
+}
+
+.section-focus__header {
+    margin-bottom: 30px;
+}
+
+.section-focus__title {
+    margin-bottom: 30px;
+}
+
+.section-focus__subtitle h3{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    color: #2E2E2E;
+}
+
+.section-focus__text {
+    width: 400px;
+    color: $secondaryTextColor;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2.14;
+}
+
+.section-focus__text p {
+    margin-bottom: 15px;
+}
+
+.section-focus__image {
+   
+}

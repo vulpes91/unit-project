@@ -1,0 +1,87 @@
+
+.button {
+    height: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background: #00C470;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 60px;
+    letter-spacing: 4px;
+    
+    color: #fff;
+    border-radius: 30px;   
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    transition: .2s ease-in;
+
+    &:hover {
+    background: #039455;
+    }
+
+    &:active {
+    background: #037242;
+    }
+}
+
+.button-outline {
+    height: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px; 
+
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 60px;
+    letter-spacing: 4px;
+    color: #fff;
+    
+    cursor: pointer;
+    outline: none;
+
+    transition: .2s ease-in;
+
+    &:hover {
+    background: $accentText;
+    }
+
+    &:active {
+    background: #037242;
+    }
+}
+
+.button-outline--special {
+    height: 60px;
+    left: 723px;
+    top: 3836px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 60px;
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #2E2E2E;
+
+    &:hover {
+    background: #07a15f;
+    color: #fff;
+    }
+
+    &:active {
+    background: #037242;
+    }
+}
+

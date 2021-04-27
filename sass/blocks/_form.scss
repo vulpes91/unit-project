@@ -35,32 +35,3 @@
      color: #fff;
     box-shadow: 0px 0px 5px 0px rgba(0, 196, 112, 0.5);
 }
-
-.button {
-    height: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
-
-    background: #00C470;
-    font-weight: 800;
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 60px;
-    letter-spacing: 4px;
-    
-    color: #fff;
-    border-radius: 30px;   
-    border: none;
-    cursor: pointer;
-    outline: none;
-
-    transition: .2s ease-in;
-}
-
-.submit:hover {
-    background: #039455;
-}
-
-.submit:active {
-    background: #037242;
-}

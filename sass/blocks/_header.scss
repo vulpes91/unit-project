@@ -4,8 +4,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     position: relative;
+    @include bgImage("../img/bg/bg_main.jpg"); 
+
+    &::before {
+        @extend %overlay;
+    }
 }
 
 .header::before {
