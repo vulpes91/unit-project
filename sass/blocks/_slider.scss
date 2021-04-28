@@ -1,0 +1,86 @@
+
+
+.section-clients__slider {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 770px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #F5F5F5;
+    border: none;
+    
+    cursor: pointer;
+
+    &--left {
+        top: 53px;
+        left: -46px;
+        transform: translateX(-100%);
+    }
+    &--right {
+        top: 53px;
+        right: -46px;
+        transform: translateX(+100%);
+    }
+}
+
+.slider-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.slider-item__text {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    color: #000000;
+
+    p {
+        margin-bottom: 15px;
+    }
+}
+
+.slider-item__author {
+    display: flex;
+    align-items: center;
+}
+
+.slider-item__avatar {
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.slider-item__avatar img{
+    border-radius: 50%;
+}
+
+.slider-item__author-desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.slider-item__author-job {
+    color: #00C470;
+    margin-bottom: 5px;
+}
+.slider-item__author-name {
+    color: #808080;
+}
