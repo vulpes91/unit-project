@@ -2,18 +2,19 @@
 @import "./base/mixins";
 @import "./base/base";
 
-@import "./blocks/header";
+@import "./sections/cta";
+@import "./sections/footer";
+@import "./sections/header";
+@import "./sections/section-clients"; 
+@import "./sections/section-focus";
+@import "./sections/section-tasks";
+
 @import "./blocks/form";
 @import "./blocks/buttons";
 @import "./blocks/functional";
 @import "./blocks/titles-subtitiles";
-@import "./blocks/cta";
-@import "./blocks/section-tasks";
-@import "./blocks/section-focus";
 @import "./blocks/pricing";
 @import "./blocks/package";
-@import "./blocks/section-clients";
 @import "./blocks/slider";
-@import "./blocks/footer";
 
 @import "./media/media";

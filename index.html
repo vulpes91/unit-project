@@ -53,12 +53,12 @@
 			</div>
 
 			<div class="container header__center-form">
-				<div class="header__main-title">
+				<h1 class="header__main-title">
 					Юнит
-				</div>
+				</h1>
 				<div class="header__main-description">
-					Управляй задачами и проектами из любой точки вместе с ЮНИТ.
-					Дома. На работе. В дороге. Онлайн. Оффлайн.
+					<p>Управляй задачами и проектами из любой точки вместе с ЮНИТ.
+						Дома. На работе. В дороге. Онлайн. Оффлайн.</p>
 				</div>
 				<form class="header__form">
 					<input type="text" class="input" placeholder="Ваше имя">
@@ -78,16 +78,18 @@
 	<!-- конец первой секции -->
 
 	<!-- начало второй секции -->
-	<section class="section-functional none">
+	<section class="section-functional" id="functional">
 		<div class="container">
-			<div class="section-functional__header">
+
+			<header class="section-functional__header">
 				<div class="section-functional__title">
 					<h2 class="title">Функционал</h2>
 				</div>
 				<div class="section-functional__subtitle">
 					<p class="subtitle">Получайте больше</p>
 				</div>
-			</div>
+			</header>
+
 			<div class="section-functional__row">
 				<div class="card">
 					<img class="card__img" src="./img/icons/functional/u_file-check-alt.svg" alt="icon doc">
@@ -122,33 +124,31 @@
 	<!-- конец второй секции -->
 
 	<!-- начало третьей секции -->
-	<section class="section-cta none">
+	<section class="section-cta">
 		<div class="section-cta__content">
 			<div class="container">
-				<div class="section-cta__header">Начните использовать <span
-						class="section-cta__header--bold">юнит</span> уже сегодня.</div>
-				<div class="section-cta__button">
-					<button class="button">подключить</button>
-				</div>
+
+				<h2 class="section-cta__header">Начните использовать <span class="section-cta__header--bold">юнит</span>
+					уже сегодня.
+				</h2>
+				<button class="button">подключить</button>
+
 			</div>
 		</div>
 	</section>
 	<!-- конец третьей секции -->
 
 	<!-- начало четвёртой секции -->
-	<section class="section-tasks none">
+	<section class="section-tasks">
 		<div class="container">
 			<div class="section-tasks__row">
 				<div class="section-tasks__content">
 
-					<div class="section-tasks__header">
-						<div class="section-tasks__title">
-							<h2 class="title">гибкое управление</h2>
-						</div>
-						<div class="section-tasks__subtitle">
-							<h3 class="subtitle">Задачи и подзадачи</h3>
-						</div>
-					</div>
+					<header class="section-tasks__header">
+						<h2 class="section-tasks__title title">гибкое управление</h2>
+						<h3 class="section-tasks__subtitle subtitle">Задачи и подзадачи</h3>
+					</header>
+
 					<div class="section-tasks__text">
 						<p>Тактика выстраивания отношений с коммерчекими агентами, вопреки мнению П.Друкера, искажает
 							продвигаемый отраслевой
@@ -167,7 +167,7 @@
 	<!-- конец четвёртой секции -->
 
 	<!-- начало пятой секции -->
-	<section class="section-focus none">
+	<section class="section-focus">
 		<div class="container">
 			<div class="section-focus__row">
 				<div class="section-focus__image">
@@ -175,14 +175,10 @@
 				</div>
 				<div class="section-focus__content">
 
-					<div class="section-focus__header">
-						<div class="section-focus__title">
-							<h2 class="title">всегда в фокусе</h2>
-						</div>
-						<div class="section-focus__subtitle">
-							<h3 class="subtitle">Множественные приоритеты</h3>
-						</div>
-					</div>
+					<header class="section-focus__header">
+						<h2 class="section-focus__title title">всегда в фокусе</h2>
+						<h3 class="section-focus__subtitle subtitle">Множественные приоритеты</h3>
+					</header>
 
 					<div class="section-focus__text">
 						<p>Потребление существенно продуцирует рыночный традиционный канал. В соответствии с законом
@@ -198,17 +194,13 @@
 	<!-- конец пятой секции -->
 
 	<!-- начало шестой секции -->
-	<section class="section-pricing none">
+	<section class="section-pricing">
 		<!-- здесь оверлей -->
 		<div class="section-pricing__content">
 			<div class="container">
 				<header class="section-pricing__header">
-					<div class="section-pricing__title">
-						<h2 class="title title--white">цены</h2>
-					</div>
-					<div class="section-pricing__subtitle">
-						<h3 class="subtitle subtitle--white">Выберите подходящий план</h3>
-					</div>
+					<h2 class="section-pricing__title title title--white">цены</h2>
+					<h3 class="section-pricing__subtitle subtitle subtitle--white">Выберите подходящий план</h3>
 				</header>
 
 				<div class="section-pricing__row">
@@ -279,12 +271,10 @@
 		<div class="container">
 
 			<header class="section-clients__header">
-				<div class="section-clients__title">
-					<h2 class="title">наши клиенты</h2>
-				</div>
-				<div class="section-clients__subtitle">
-					<h3 class="subtitle">Что говорят пользователи</h3>
-				</div>
+
+				<h2 class="section-clients__title title">наши клиенты</h2>
+				<h3 class="section-clients__subtitle subtitle">Что говорят пользователи</h3>
+
 			</header>
 
 			<div class="section-clients__slider">
@@ -321,11 +311,11 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__row">
-				<div class="footer__nav">
+				<nav class="footer__nav">
 					<a class="footer__nav-item" href="#">О нас</a>
 					<a class="footer__nav-item" href="#">Блог</a>
 					<a class="footer__nav-item" href="#">Контакты</a>
-				</div>
+				</nav>
 				<div class="footer__social">
 
 					<a href="#" class="footer__social-item">
