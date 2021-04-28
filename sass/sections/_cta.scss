@@ -8,6 +8,18 @@
     &::before {
         @extend %overlay;
     }
+
+    & a {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+        max-width: 230px;
+
+        text-decoration: none;
+        line-height: 60px;
+    }
 }
 
 

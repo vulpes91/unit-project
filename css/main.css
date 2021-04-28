@@ -18,6 +18,7 @@
 html {
   height: 100%;
   /* sticky footer */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -110,6 +111,16 @@ legend {
   background-image: url("../img/bg/cta-bg.jpg");
   background-size: cover;
   background-position: center;
+}
+.section-cta a {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  max-width: 230px;
+  text-decoration: none;
+  line-height: 60px;
 }
 
 .section-cta__content {
@@ -306,6 +317,9 @@ legend {
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   transition: .2s ease-in;
+}
+.header__scroll:hover {
+  opacity: .5;
 }
 
 .section-clients {

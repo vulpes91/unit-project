@@ -97,5 +97,10 @@
     left: 50%;
     transform: translate(-50%);
     transition: .2s ease-in;
+
+    &:hover {
+        opacity: .5;
+    }
+
 }
 
