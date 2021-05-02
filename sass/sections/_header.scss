@@ -55,12 +55,13 @@
 .header__buttons {
     display: flex;
     justify-content: space-between;
+    
     margin-bottom: 140px;
-
-    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 
+    width: 1200px;
+   
     /*media tablet*/
     @media (max-width: 1199px) {
         width: 100%;

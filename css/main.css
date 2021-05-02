@@ -85,7 +85,8 @@ legend {
 /* Grid styles */
 .container {
   width: 1200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -375,9 +376,9 @@ legend {
   display: flex;
   justify-content: space-between;
   margin-bottom: 140px;
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  width: 1200px;
   /*media tablet*/
   /*media mobile*/
   /*media mobilexs*/
@@ -1564,6 +1565,13 @@ legend {
 
 .slider {
   position: relative;
+  padding-bottom: 54px;
+  /*media mobile*/
+}
+@media (max-width: 899px) {
+  .slider {
+    padding-bottom: 44px;
+  }
 }
 
 .slider__arrow {
@@ -1583,11 +1591,22 @@ legend {
   top: 53px;
   left: -46px;
   transform: translateX(-100%);
+  /*media tablet*/
+}
+@media (max-width: 949px) {
+  .slider__arrow--left {
+    left: -30px;
+  }
 }
 .slider__arrow--right {
   top: 53px;
   right: -46px;
   transform: translateX(100%);
+}
+@media (max-width: 949px) {
+  .slider__arrow--right {
+    right: -30px;
+  }
 }
 @media (max-width: 599px) {
   .slider__arrow {
@@ -1681,15 +1700,9 @@ legend {
 .slider__pagination {
   display: flex;
   position: absolute;
-  bottom: -40px;
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%, 100%);
-  /*media mobile*/
-}
-@media (max-width: 899px) {
-  .slider__pagination {
-    bottom: -30px;
-  }
+  transform: translateX(-50%);
 }
 
 .slider__pagination-item {
