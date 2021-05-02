@@ -1,34 +1,116 @@
 .section-functional {
     padding-top: 80px;
     padding-bottom: 80px;
+    text-align: center;
+
+    /*media tablet*/
+    @media (max-width: 1199px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /*media mobilexs*/
+    @media (max-width: 599px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 .section-functional__header {
     margin-bottom: 70px;
     text-align: center;
+
+    /*media tablet*/
+    @media (max-width: 1199px) {
+        margin-bottom: 60px;
+    }
+
+    /*media mobile*/
+    @media (max-width: 899px) {
+        margin-bottom: 40px;
+    }
+}
+
+.section-functional__title {
+    /*media tablet*/
+    @media (max-width: 1199px) {
+        margin-bottom: 30px;
+    }
+
+    /*media mobile*/
+    @media (max-width: 899px) {
+        margin-bottom: 20px;
+    }
+
+    /*media mobilexs*/
+    @media (max-width: 599px) {
+        margin-bottom: 10px;
+    }
 }
 
 .section-functional__row {
     display: flex;
+    flex-wrap: wrap;
+
     margin-left: -15px;
     margin-right: -15px;
+
+    /*media mobile*/
+    @media (max-width: 899px) {
+        margin-top: -30px;
+    }
+
+    /*media mobilexs*/
+    @media (max-width: 599px) {
+        margin-top: -40px;
+    }
 }
 
 .section-functional__row > * {
     margin-left: 15px;
     margin-right: 15px;
     flex-shrink: 0;
+
+    /*media mobile*/
+    @media (max-width: 899px) {
+        margin-top: 30px;
+    }
+
+    /*media mobilexs*/
+    @media (max-width: 599px) {
+        margin-top: 40px;
+    }
 }
 
 .card {
     text-align: center;
     width: 270px;
+
+    /*media tablet*/
+    @media (max-width: 1199px) {
+        width: 195px;
+    }
+
+    /*media mobile*/
+    @media (max-width: 899px) {
+        width: 270px;
+    }
+
+    /*media mobilexs*/
+    @media (max-width: 599px) {
+        width: 290px;
+    }
 }
 
 .card__img {
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
+
+    /*media tablet*/
+    @media (max-width: 1199px) {
+        margin-bottom: 20px;
+    }
 }
 
 .card__title {
@@ -37,6 +119,17 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1;
+
+    /*media tablet*/
+    @media (max-width: 1199px) {
+        margin-bottom: 10px;
+        min-height: 32px;
+    }
+
+    /*media mobile*/
+    @media (max-width: 899px) {
+        min-height: unset;
+    }
 }
 
 .card__paragraph {
@@ -45,4 +138,9 @@
     line-height: 30px;
 
     color: $secondaryTextColor;
+
+    /*media tablet*/
+    @media (max-width: 1199px) {
+        line-height: 1.57;
+    }
 }
