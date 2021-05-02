@@ -476,7 +476,7 @@ legend {
   .header__main-description {
     margin-bottom: 50px;
     font-size: 18px;
-    line-height: auto;
+    line-height: 22px;
   }
 }
 @media (max-width: 899px) {
