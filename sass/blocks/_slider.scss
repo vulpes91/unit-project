@@ -116,7 +116,7 @@
     margin-right: 20px;
     width: 80px;
     height: 80px;
-    border-radius: 50%;
+    border-radius: 75%;
 
     /*media mobilexs*/
     @media (max-width: 599px) {
@@ -127,6 +127,14 @@
 }
 .slider-item__avatar img{
     border-radius: 50%;
+    width: 80px;
+    height: 80px;
+
+    /*media mobilexs*/
+    @media (max-width: 599px) {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 .slider-item__author-desc {

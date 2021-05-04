@@ -28,16 +28,17 @@
 
     /*media tablet*/
     @media (max-width: 1199px) {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     /*media mobile*/
     @media (max-width: 899px) {
         font-size: 14px;
+        margin-bottom: 20px;
     }
 
     /*media mobilexs*/
     @media (max-width: 599px) {
-        margin-bottom: 10px;
+        margin-bottom: 10px; 
     }
 }
 
