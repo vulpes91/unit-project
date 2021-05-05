@@ -55,6 +55,7 @@
 .header__buttons {
     display: flex;
     justify-content: space-between;
+    outline: none !important;
     
     margin-bottom: 140px;
     padding-left: 15px;

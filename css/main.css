@@ -13,6 +13,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  outline: none;
 }
 
 html {
@@ -377,6 +378,7 @@ legend {
 .header__buttons {
   display: flex;
   justify-content: space-between;
+  outline: none !important;
   margin-bottom: 140px;
   padding-left: 15px;
   padding-right: 15px;
@@ -981,7 +983,7 @@ legend {
   border-radius: 30px;
   border: none;
   cursor: pointer;
-  outline: none;
+  outline: none !important;
   transition: .2s ease-in;
   /*media mobile*/
   /*media mobilexs*/
@@ -1275,7 +1277,6 @@ legend {
 @media (max-width: 1199px) {
   .subtitle {
     font-size: 38px;
-    margin-bottom: 20px;
   }
 }
 @media (max-width: 899px) {
