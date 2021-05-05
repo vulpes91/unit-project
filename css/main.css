@@ -31,6 +31,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: #2E2E2E;
+  outline: none;
 }
 
 body > * {
@@ -1022,6 +1023,7 @@ legend {
   top: 3836px;
   background: #FFFFFF;
   border-radius: 30px;
+  outline: none;
   font-weight: 800;
   font-size: 14px;
   line-height: 60px;
@@ -1342,7 +1344,7 @@ legend {
   position: relative;
   padding-top: 90px;
   padding-bottom: 100px;
-  background-image: url("../img/bg/bg-2.jpg");
+  background-image: url("../img/bg/pricing/pricing-bg.jpg");
   background-size: cover;
   background-position: center;
   /*media tablet*/
@@ -1351,27 +1353,18 @@ legend {
 }
 @media (max-width: 1199px) {
   .section-pricing {
-    background-image: url("../img/bg/bg-2-tablet.jpg");
-    background-size: cover;
-    background-position: center;
     padding-top: 50px;
     padding-bottom: 50px;
   }
 }
 @media (max-width: 899px) {
   .section-pricing {
-    background-image: url("../img/bg/bg-2-mobile.jpg");
-    background-size: cover;
-    background-position: center;
     padding-bottom: 40px;
   }
 }
 @media (max-width: 599px) {
   .section-pricing {
     padding-top: 40px;
-    background-image: url("../img/bg/bg-2-mobilexs.jpg");
-    background-size: cover;
-    background-position: center;
     overflow-x: hidden;
   }
 }

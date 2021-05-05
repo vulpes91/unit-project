@@ -4,7 +4,6 @@
     padding-bottom: 84px;
 
     @include bgImage("../img/bg/cta-bg.jpg"); 
-
     &::before {
         @extend %overlay;
     }
